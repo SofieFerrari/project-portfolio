@@ -1,5 +1,6 @@
 .contact-wrapper {
 	background-color: #195078;
+  padding-bottom: 50px;
 }
 
 .contact-section {
@@ -52,6 +53,7 @@
 .link-btn:hover {
 	color: #db938f;
 	background-color: #195078;
+  cursor: pointer;
 }
 
 @media (min-width: 1025px) {

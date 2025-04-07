@@ -2,6 +2,8 @@ import "../styling/Heading.css"
 import myImage from "/new_profile.png"
 import { TbArrowNarrowDown } from "react-icons/tb"
 
+const waveText = "Frontend Developer";
+
 export const Introduction = () => {
 	return (
 		<>
@@ -9,7 +11,15 @@ export const Introduction = () => {
 				<div className="intro-container">
 					<div className="intro-heading">
 						Hi, I&apos;m Sofie Ferrari Strahl
-						<h1>Frontend Developer</h1>
+						<h1 className="wavy-text">
+							{waveText.split("").map((char, index) => (
+								<span
+									key={index}
+									style={{ animationDelay: `${index * 0.05}s` }}>
+									{char}
+								</span>
+							))}
+						</h1>
 					</div>
 
 					<div className="intro-image">
@@ -27,5 +37,5 @@ export const Introduction = () => {
 				</div>
 			</section>
 		</>
-	)
+	);
 }
