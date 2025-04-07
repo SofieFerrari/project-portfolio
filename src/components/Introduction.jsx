@@ -1,5 +1,5 @@
 import "../styling/Heading.css"
-import myImage from "/image.me.png"
+import myImage from "/new_profile.png"
 import { TbArrowNarrowDown } from "react-icons/tb"
 
 export const Introduction = () => {

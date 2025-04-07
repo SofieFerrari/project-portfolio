@@ -1,5 +1,5 @@
 import "../styling/Contact.css"
-import myImage from "/image.me.png"
+import myImage from "/new_profile.png"
 import { FaLinkedinIn } from "react-icons/fa"
 import { FaGithub } from "react-icons/fa"
 import { FaStackOverflow } from "react-icons/fa"

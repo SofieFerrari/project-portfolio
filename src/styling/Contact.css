@@ -14,17 +14,17 @@
 	font-size: 56px;
 	line-height: 68.26px;
 	color: #73bdcb;
-	margin-top: 10%;
+	padding-top: 20px;
 	font-family: "Montserrat", sans-serif;
 }
 
 .contact-section img {
 	align-self: center;
-	height: 200px;
-	width: 200px;
-	border-radius: 100%;
-	border: none;
-	margin: 5%;
+	width: 164px;
+	height: auto;
+	border-radius: 100px;
+	border: 6px solid #db938f;
+
 }
 
 .contact-text h2 {
